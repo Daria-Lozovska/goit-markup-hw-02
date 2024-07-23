@@ -11,7 +11,6 @@ body {
 .logotype {
     width: 115px;
     height: 24px;
-    transform: translate(156px, 24px);
 }
 
 .logo {
@@ -42,7 +41,6 @@ body {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #2E2F42;
-        transform: translate(347px, 24px);
 }
 
 .menu-adres {
@@ -53,19 +51,10 @@ body {
         color: #434455;
 }
 
-.adres-email {
-    transform: translate(940px, 24px);
-}
-
-.adres-tel {
-    transform: translate(1133px, 24px);
-}
-
 .menu-hero {
     width: 1440px;
         height: 600px;
     background-color: #2E2F42;
-    transform: translate(0, 72px);
 }
 
 .hero-text {
@@ -75,7 +64,6 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
-        transform: translate(472px, 260px);
 }
 
 .hero-button {
@@ -85,7 +73,6 @@ body {
         height: 56px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4D5AE5;
-        transform: translate(636px, 428px);
 }
 
 .hero-button-in {
@@ -94,29 +81,11 @@ body {
         line-height: 150%;
         letter-spacing: 0.04em;
         color: #FFFFFF;
-        transform: translate(32px, 16px);
 }
 
 .menu-about {
     width: 1128px;
         height: 104px;
-        transform: translate(156px, 792px);
-}
-
-.list-about-1 {
-    transform: translate(156px, 792px);
-}
-
-.list-about-2 {
-    transform: translate(444px, 792px);
-}
-
-.list-about-3 {
-    transform: translate(732px, 792px);
-}
-
-.list-about-4 {
-    transform: translate(1020px, 792px);
 }
 
 .about-name-text {
@@ -139,7 +108,6 @@ body {
     width: 1440px;
     height: 732px;
     background-color: #F4F4FD;
-    transform: translate(0, 1016px);
 }
 
 .text-team {
@@ -149,47 +117,15 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-        transform: translate(639px, 1136px);
 }
 
-.team-user-1 {
+.team-user {
     border-radius: 0 0 4px 4px;
         padding: 0px 0px 32px 0px;
         width: 264px;
         height: 380px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
             background: #FFFFFF;
-            transform: translate(156px, 1248px);
-}
-
-.team-user-2 {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #FFFFFF;
-    transform: translate(444px, 1248px);
-}
-
-.team-user-3 {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #FFFFFF;
-    transform: translate(732px, 1248px);
-}
-
-.team-user-4 {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #FFFFFF;
-    transform: translate(1020px, 1248px);
 }
 
 .team-name-user {
@@ -213,7 +149,6 @@ body {
 .portfolio {
     width: 1128px;
         height: 1000px;
-        transform: translate(156px, 1868px);
 }
 
 .text-portfolio {
@@ -223,55 +158,17 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
-        transform: translate(611px, 1868px);
 }
 
 .menu-portfolio {
     width: 1128px;
         height: 420px;
-        transform: translate(156px, 1980px);
 }
 
-.list-portfolio-1 {
+.list-portfolio {
     width: 360px;
         height: 420px;
         background-color: #FFFFFF;
-        transform: translate(156px, 1980px);
-}
-
-.list-portfolio-2 {
-    width: 360px;
-    height: 420px;
-    background-color: #FFFFFF;
-    transform: translate(540px, 1980px);
-}
-
-.list-portfolio-3 {
-    width: 360px;
-    height: 420px;
-    background-color: #FFFFFF;
-    transform: translate(924px, 1980px);
-}
-
-.list-portfolio-4 {
-    width: 360px;
-    height: 420px;
-    background-color: #FFFFFF;
-    transform: translate(156px, 2448px);
-}
-
-.list-portfolio-5 {
-    width: 360px;
-    height: 420px;
-    background-color: #FFFFFF;
-    transform: translate(540px, 2448px);
-}
-
-.list-portfolio-6 {
-    width: 360px;
-    height: 420px;
-    background-color: #FFFFFF;
-    transform: translate(924px, 2448px);
 }
 
 .list-name {
@@ -294,14 +191,8 @@ body {
     width: 1440px;
     height: 312px;
     background-color: #2E2F42;
-    transform: translate(0, 2988px);
 }
 
-.logotype-1 {
-    width: 115px;
-        height: 24px;
-        transform: translate(156px, 3088px);
-}
 
 .text-footer {
         font-weight: 400;
@@ -309,5 +200,4 @@ body {
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #F4F4FD;
-        transform: translate(156px, 3128px);
 }
