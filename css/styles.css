@@ -35,9 +35,12 @@ body {
         cursor: pointer;
 }
 
-.nav-button:hover,
-.nav-button:focus {
+.nav-button:hover {
     color: #404bbf;
+}
+
+.nav-button:focus {
+        color: #404bbf;
 }
 
 .adres {
