@@ -17,11 +17,6 @@ body {
 
 .logo {
     font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
         color: #2e2f42;
 }
 
@@ -35,12 +30,9 @@ body {
         cursor: pointer;
 }
 
-.nav-button:hover {
+.nav-buton:hover,
+.nav-buton:focus {
     color: #404bbf;
-}
-
-.nav-button:focus {
-        color: #404bbf;
 }
 
 .adres {
@@ -61,7 +53,7 @@ body {
 }
 
 /* SECTION 1 MAIN */
-.section-1 {
+.section-one {
         background-color: #2e2f42;
 }
 
@@ -106,7 +98,7 @@ body {
 }
 
 /* SECTION 3 OUR TEAM */
-.section-3 {
+.section-three {
         background-color: #F4F4FD;
 }
 
