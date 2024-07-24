@@ -1,5 +1,6 @@
 body {
-    background-color: #E7E9FC;
+        color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
 }
 
@@ -11,7 +12,7 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: #4d5ae5;
 }
 
 .logo {
@@ -21,7 +22,7 @@ body {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #4D5AE5;
+        color: #2e2f42;
 }
 
 .nav-button {
@@ -30,15 +31,18 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: #2e2f42;
         cursor: pointer;
 }
 
 .nav-button:hover,
-.nav-button:active {
-    color: #404BBF;
+.nav-button:focus {
+    color: #404bbf;
 }
 
+.adres {
+        font-style: normal;
+}
 
 .adres-nav {
         font-weight: 400;
@@ -48,31 +52,37 @@ body {
         color: #434455;
 }
 
-.adres-nav:hover {
+.adres-nav:focus {
     color: #404BBF;
 }
 
 /* SECTION 1 MAIN */
+.section-1 {
+        background-color: #2e2f42;
+}
+
 .text-main {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #FFFFFF;
+        color: #ffffff;
 }
 
 .button-main {
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+            color: #ffffff;
+            background-color: #404bbf;
 }
 
-.button-main:hover {
-    background-color: #404BBF;
+.button-main:focus {
+    background-color: #404bbf;
+    cursor: pointer;
 }
 
 /* SECTION 2 ABOUT */
@@ -92,21 +102,21 @@ body {
 }
 
 /* SECTION 3 OUR TEAM */
+.section-3 {
+        background-color: #F4F4FD;
+}
+
 .text-team {
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
 .box-user {
-    border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
             background: #FFFFFF;
 }
 
@@ -134,12 +144,11 @@ body {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
         color: #2E2F42;
 }
 
 .box-portfolio {
-    width: 360px;
-        height: 420px;
         background: #FFFFFF;
 }
 
@@ -159,6 +168,10 @@ body {
 }
 
 /* FOOTER */
+.footer {
+       background-color: #2e2f42; 
+}
+
 .text-footer {
         font-size: 16px;
         line-height: 1.5;
